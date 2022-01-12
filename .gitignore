@@ -21,3 +21,8 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+#Electron-builder output
+/dist_electron
+/src/assets/icofont
+/src/assets/fontawesome-free-5.15.4-web
