@@ -59,27 +59,24 @@ section .section-poster img{
     height: 411px;
 }
 section .poster-item:first-child{
-   
-    max-width: 1025px;
+    max-width: 886px;
     width: 100%;
 }
 section .poster-item:last-child{
-   
     width: 589px;
 }
 section .section-poster .poster-item:nth-child(1){
     margin-right: 5px;
 }
 .poster-item .poster-text-info{
-    position: absolute;
-    top: 46%;
-    margin-left: 300px;
+    position: relative;
+    top: -78px;
+    /* margin-left: 300px; */
     color: #FFF;
     text-align: center;
 }
 .poster-item .poster-text-info p.poster-title{
     font-size: 20px;
-
 }
 
 .poster-item:hover .shadow{
@@ -88,7 +85,7 @@ section .section-poster .poster-item:nth-child(1){
 
 .shadow{
     background-color: #000;
-    width: 1025px;
+    width: 886px;
     height: 411px;
     position: absolute;
     top: 79px;
@@ -96,7 +93,7 @@ section .section-poster .poster-item:nth-child(1){
 }
 .poster-item .shadow-second{
     background-color: #000;
-    width: 450px;
+    width: 589px;
     height: 411px;
     position: absolute;
     top: 79px;
@@ -147,6 +144,7 @@ section .section-poster .poster-item:nth-child(1){
 .text-info{
     display: flex;
     align-items: center;
+    margin-top: 12px;
 }
 .text-info h3{
     margin-right: 12px;
@@ -163,6 +161,7 @@ section .section-poster .poster-item:nth-child(1){
 .card-game{
     background-color: #FFF;
     width: 175px;
+    margin-right: 12px;
 }
 .card-game img{
     width: 100%;
