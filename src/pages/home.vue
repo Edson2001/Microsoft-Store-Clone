@@ -91,7 +91,7 @@
                 <a href="">Mostrar todos 99+</a>
             </div>
 
-            <div   class="card-games main-carousel" data-flickity='{ "cellAlign": "left", "contain": true,"pageDots": false }'>
+            <div v-if="item != ''" class="card-games main-carousel" data-flickity='{ "cellAlign": "left", "contain": true,"pageDots": false }'>
 
                 <div class="card-game">
                     <div class="card-game-img">
@@ -314,6 +314,58 @@
                 </div>
 
             </div>
+
+
+            <div v-else class="card-games card-home-banner">
+
+                <div class="info-banner">
+                    <h4>Temas do windows</h4>
+                    <p>Personalize o seu ambiente de trabalho do windows. Descubra espetaculares padrões de fundo, sons, cores de...</p>
+                    <a href="">Obter mais informação.</a>
+                </div>
+
+                <div class="cards-banner">
+
+                    <div v-for="item in 8" :key="item" class="card-game">
+                        <div class="card-game-img">
+                            <img src="../assets/img/511Y4sqp7tL._AC_SY780_.jpg" alt="">
+                        </div>
+                        <div class="card-game-body">
+                            
+                            <div class="avaliation">
+                                <span class="card-game-title">
+                                    Roblox
+                                </span>
+                                <span>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                            </div>
+                            <p class="card-game-info">Gratuito</p>
+                        </div>
+                    </div>
+
+                </div>
+               
+
+            </div>
+
+            <div v-if="item == 'Coleções'" class="collections">
+
+                <div  class="card-collection">
+                    <p>Temas do windows</p>
+                </div>
+                 <div class="card-collection">
+                    <p><i class="fas fa-chevron-right"></i></p>
+                    <p>Mostrar mais</p>
+
+                </div>
+
+            </div>
+
         </div>
 
 
@@ -350,14 +402,11 @@ export default {
 
         const listNames = [
             "Mais populares",
+            "",
             "Aplicações principais gratuitas",
             "Jogos principais gratuitos",
             "Coleções"
         ]
-        
-        
-        
-        
 
         return {listNames}
 
