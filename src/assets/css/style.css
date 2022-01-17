@@ -271,13 +271,12 @@ section .section-poster .poster-item:nth-child(1){
     
 }
 .collections .card-collection:first-child{
-    background-image: url(/img/windows_10_preco_1.7bbf7e8f.jpg);
+    background-image: url(../img/windows.jpg);
 }
 .collections .card-collection:nth-child(2){
-    background-image: url(/img/woman.jpg);
+    background-image: url(../img/woman.jpg) !important;
 }
 .collections .card-collection:first-child, .collections .card-collection:nth-child(2){
-    
     background-size: cover;
     color: #FFF;
     display: flex;

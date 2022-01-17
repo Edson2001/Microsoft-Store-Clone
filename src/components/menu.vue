@@ -3,7 +3,7 @@
     <nav class="menu-list menu-1">
         <ul>
             <li>
-                <i class="icofont-long-arrow-left"></i>
+                <i @click="randomPage" class="icofont-long-arrow-left"></i>
             </li>
             <li>
                 <router-link to="/">Home</router-link>
@@ -45,3 +45,28 @@
     
 </template>
 
+
+<script>
+import {useRouter} from "vue-router"
+export default {
+    setup() {
+
+        const pages = ['/', 'gaming', 'entretaiment', 'productivity']
+        let pagesLength = pages.length
+        const router = useRouter()
+        
+        function randomPage(){
+            
+            console.log(pagesLength)
+
+            let i = Math.floor(Math.random()*pagesLength)
+
+            router.push(pages[i])
+
+        }
+
+        return {randomPage}
+
+    }
+}
+</script>

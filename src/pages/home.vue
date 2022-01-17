@@ -385,6 +385,8 @@ import '../assets/icofont/icofont.css'
 import '../assets/fontawesome-free-5.15.4-web/css/all.css'
 import '../assets/fontawesome-free-5.15.4-web/css/fontawesome.css'
 
+import {onMounted} from "vue"
+
 export default {
 
 
@@ -400,10 +402,22 @@ export default {
             "Coleções"
         ]
 
-        new Flickity( '.main-carousel', {
-            cellAlign: 'left',
-            contain: true
-        });
+        function carousel(){
+
+            new Flickity( '.main-carousel', {
+                cellAlign: 'left',
+                contain: true
+            });
+
+        }
+
+        carousel()
+
+        onMounted(()=>{
+            carousel()
+        })
+
+        
 
         return {listNames}
 
