@@ -204,6 +204,10 @@ section .section-poster .poster-item:nth-child(1){
     width: 289px;
     height: 80px;
     margin-bottom: 4px;
+    text-align: start;
+    text-indent: 12px;
+    display: flex;
+    align-items: center;
 }
 .home-tops-item:first-child{
     margin-right: 12px;

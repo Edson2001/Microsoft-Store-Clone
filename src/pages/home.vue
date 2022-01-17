@@ -36,18 +36,20 @@
 
             <div class="home-tops">
                 <div class="home-tops-item">
-
+                    <span><i class="fab fa-flipboard"></i> Top apps</span>
                 </div>
                 <div class="home-tops-item">
-                    
+                    <span><i class="fa fa-gamepad"></i> Top games</span>
                 </div>
+                
             </div>
             <div class="home-tops">
                 <div class="home-tops-item">
-
+                    <span><i class="fa fa-bars"></i> Featured</span>
                 </div>
+
                 <div class="home-tops-item">
-                    
+                    <span><i class="fa fa-bars"></i> Collections</span>
                 </div>
             </div>
 
