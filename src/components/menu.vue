@@ -12,10 +12,11 @@
                 <router-link to="/gaming">Gaming</router-link>
             </li>
             <li>
-                <router-link to="/gaming">Entretaiment</router-link>
+                <router-link to="/entretaiment">Entretaiment</router-link>
             </li>
             <li>
-                Productivity
+                <router-link to="/productivity">Productivity</router-link>
+                
             </li>
             <li>
                 Deals

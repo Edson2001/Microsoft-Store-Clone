@@ -34,23 +34,22 @@
 
         <div class="section-sub-post">
 
-            <div class="home-tops">
-                <div class="home-tops-item">
-                    <span><i class="fab fa-flipboard"></i> Top apps</span>
-                </div>
-                <div class="home-tops-item">
-                    <span><i class="fa fa-gamepad"></i> Top games</span>
-                </div>
-                
-            </div>
-            <div class="home-tops">
-                <div class="home-tops-item">
-                    <span><i class="fa fa-bars"></i> Featured</span>
-                </div>
+            <div class="sub-post-item">
 
-                <div class="home-tops-item">
-                    <span><i class="fa fa-bars"></i> Collections</span>
+                <img src="../assets/img/banner189.jpg" alt="">
+                <div class="sub-poster-text-info">
+                    <p class="sub-poster-title">Asphalto 9: Legends</p>
                 </div>
+                <div class="shadow-sub-post-item"></div>
+            </div>
+
+            <div class="sub-post-item">
+
+                <img src="../assets/img/banner189.jpg" alt="">
+                <div class="sub-poster-text-info">
+                    <p class="sub-poster-title">Asphalto 9: Legends</p>
+                </div>
+                <div class="shadow-sub-post-item"></div>
             </div>
 
             <div class="sub-post-item">
@@ -358,6 +357,11 @@
                 <div  class="card-collection">
                     <p>Temas do windows</p>
                 </div>
+
+                <div  class="card-collection">
+                    <p>Crie seu filme</p>
+                </div>
+
                  <div class="card-collection">
                     <p><i class="fas fa-chevron-right"></i></p>
                     <p>Mostrar mais</p>
@@ -393,10 +397,8 @@ export default {
     setup() {
 
         const listNames = [
-            "Mais populares",
-            "",
-            "Aplicações principais gratuitas",
-            "Jogos principais gratuitos",
+            "Ofertas especias para aplicações",
+            "Aplicações mais vendidas",
             "Coleções"
         ]
 

@@ -272,6 +272,12 @@ section .section-poster .poster-item:nth-child(1){
 }
 .collections .card-collection:first-child{
     background-image: url(/img/windows_10_preco_1.7bbf7e8f.jpg);
+}
+.collections .card-collection:nth-child(2){
+    background-image: url(/img/woman.jpg);
+}
+.collections .card-collection:first-child, .collections .card-collection:nth-child(2){
+    
     background-size: cover;
     color: #FFF;
     display: flex;
@@ -279,6 +285,7 @@ section .section-poster .poster-item:nth-child(1){
     justify-content: flex-end;
     text-align: center;
 }
+
 .collections .card-collection:last-child{
 
     background-color: #fafafa;
