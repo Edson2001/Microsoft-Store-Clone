@@ -2,44 +2,7 @@
     
     <header class="menu">
 
-        <nav class="menu-list menu-1">
-            <ul>
-                <li>
-                    <i class="icofont-long-arrow-left"></i>
-                </li>
-                <li>
-                    Home
-                </li>
-                <li>
-                    Entretaiment
-                </li>
-                <li>
-                    Productivity
-                </li>
-                <li>
-                    Deals
-                </li>
-            </ul>
-        </nav>
-
-        <nav class="menu-list menu-2">
-            <ul>
-                <li>
-                    <i class="fa fa-search icon-size-menu"></i>
-                    Pesquisar
-                </li>
-                <li>
-                    <i class="fa fa-user-plus icon-size-menu"></i>
-                </li>
-                <li>
-                    <i class="fa fa-arrow-down icon-size-menu"></i>
-                </li>
-                <li>
-                    <i class="fa fa-ellipsis-h"></i>
-                </li>
-                
-            </ul>
-        </nav>
+        <menu-header></menu-header>
 
     </header>
 
@@ -71,22 +34,21 @@
 
         <div class="section-sub-post">
 
-            <div class="sub-post-item">
+            <div class="home-tops">
+                <div class="home-tops-item">
 
-                <img src="../assets/img/banner189.jpg" alt="">
-                <div class="sub-poster-text-info">
-                    <p class="sub-poster-title">Asphalto 9: Legends</p>
                 </div>
-                <div class="shadow-sub-post-item"></div>
+                <div class="home-tops-item">
+                    
+                </div>
             </div>
+            <div class="home-tops">
+                <div class="home-tops-item">
 
-            <div class="sub-post-item">
-
-                <img src="../assets/img/banner189.jpg" alt="">
-                <div class="sub-poster-text-info">
-                    <p class="sub-poster-title">Asphalto 9: Legends</p>
                 </div>
-                <div class="shadow-sub-post-item"></div>
+                <div class="home-tops-item">
+                    
+                </div>
             </div>
 
             <div class="sub-post-item">
@@ -360,19 +322,21 @@
 <script>
 
 import Flickity from "flickity"
+
 import "flickity/css/flickity.css"
+
+import menuHeader from "../components/menu.vue"
 
 import '../assets/icofont/icofont.css'
 import '../assets/fontawesome-free-5.15.4-web/css/all.css'
 import '../assets/fontawesome-free-5.15.4-web/css/fontawesome.css'
-import '../assets/css/style.css'
-import '../assets/js/script.js'
+
 
 import {onMounted} from "vue"
 
 export default {
 
-
+    components:{menuHeader},
     setup() {
 
         const listNames = [
