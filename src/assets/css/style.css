@@ -123,6 +123,7 @@ section .section-poster .poster-item:nth-child(1){
 .section-sub-post{
     display: flex;
     flex-wrap: wrap;
+    margin-top: -62px;
 }
 .section-sub-post img{
     width: 100%;
