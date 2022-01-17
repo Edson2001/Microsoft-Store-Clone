@@ -9,7 +9,10 @@
                 <router-link to="/">Home</router-link>
             </li>
             <li>
-                <router-link to="/entretaiment">Entretaiment</router-link>
+                <router-link to="/gaming">Gaming</router-link>
+            </li>
+            <li>
+                <router-link to="/gaming">Entretaiment</router-link>
             </li>
             <li>
                 Productivity

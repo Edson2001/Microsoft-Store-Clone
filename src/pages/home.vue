@@ -334,26 +334,30 @@ import '../assets/fontawesome-free-5.15.4-web/css/all.css'
 import '../assets/fontawesome-free-5.15.4-web/css/fontawesome.css'
 
 
-import {onMounted} from "vue"
+//import {onMounted, } from "vue"
 
 export default {
+
+    created() {
+        new Flickity( '.main-carousel', {
+            cellAlign: 'left',
+            contain: true
+        });
+    },
 
     components:{menuHeader},
     setup() {
 
         const listNames = [
-            "Jogos mais vendidos",
+            "Mais populares",
+            "Aplicações principais gratuitas",
             "Jogos principais gratuitos",
-            "Jogos principais pagos",
-            "Ofertas especias para jogos de PC"
+            "Coleções"
         ]
         
-        onMounted(()=>{
-            new Flickity( '.main-carousel', {
-                cellAlign: 'left',
-                contain: true
-            });
-        })
+        
+        
+        
 
         return {listNames}
 

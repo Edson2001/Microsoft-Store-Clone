@@ -1,5 +1,5 @@
 import {createRouter, createWebHistory} from "vue-router"
-import Entretaiment from "../pages/entretaiment"
+import Gaming from "../pages/gaming"
 
 import Home from "../pages/home"
 
@@ -10,8 +10,8 @@ const routes =[
         component: Home,
     },
     {
-        path: '/entretaiment',
-        component: Entretaiment
+        path: '/gaming',
+        component: Gaming
     }
 
 ]
